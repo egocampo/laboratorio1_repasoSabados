@@ -1,0 +1,29 @@
+// ALUMNO: GABRIEL OCAMPO
+// DIVISION: 1°G
+// REPASO SABADOS EJERCICIO 1.2
+//Ejercicio 2:
+//Ingresar 5 números. Determinar cuál es el máximo y el mínimo e indicar en
+//qué orden fue ingresado.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int bufferInt;
+	int posicionMaximo;
+	int posicionMinimo;
+	int i;
+
+	for(i=0;i<5;i++)
+	{
+		printf("Ingrese el numero #%d: ",&bufferInt);
+		scanf("%d",&bufferInt);
+
+	}
+	return 0;
+}
+
+
+// para purgar antes de leer caracteres (letras, con numeros no hace falta) con scanf:
+// fflush(stdio); en windows
+//__fpurge;  en linux

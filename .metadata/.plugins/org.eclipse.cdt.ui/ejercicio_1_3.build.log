@@ -1,0 +1,6 @@
+12:56:51 **** Incremental Build of configuration Debug for project ejercicio_1_3 ****
+make all 
+make: No se hace nada para 'all'.
+
+12:56:52 Build Finished. 0 errors, 0 warnings. (took 569ms)
+
