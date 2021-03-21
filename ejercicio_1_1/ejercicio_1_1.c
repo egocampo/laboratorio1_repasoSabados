@@ -24,12 +24,12 @@ int main(void) {
 	{
 		printf("Ingrese un numero: ");
 		scanf("%d",&bufferInt);
-		if(bufferInt>=0)
+		if(bufferInt>0)
 		{
 			acumuladorPositivos+=bufferInt;
 			contadorPositivos++;
 		}
-		else
+		else if(bufferInt<0)
 		{
 			acumuladorNegativos+=bufferInt;
 			contadorNegativos++;
